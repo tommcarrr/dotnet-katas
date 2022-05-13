@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 
-namespace DotNetKatas.FizzBuzz;
+namespace DotNetKatas.Exercises.FizzBuzz;
 
 public class FizzBuzz
 {
-    public List<string> GetFizzBuzz(int max)
+    internal List<string> GetFizzBuzz(int max)
     {
         List<string> s = new ();
         for (int i = 1; i <= max; i++)
@@ -14,7 +14,7 @@ public class FizzBuzz
         return s;
     }
 
-    public string GetString(int i)
+    internal string GetString(int i)
     {
         if (i % 15 == 0)
         {

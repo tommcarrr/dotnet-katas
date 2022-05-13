@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace DotNetKatas.FizzBuzz;
+namespace DotNetKatas.Exercises.FizzBuzz;
 
 public class FizzBuzzTests
 {
